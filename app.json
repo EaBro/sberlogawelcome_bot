@@ -1,1 +1,21 @@
-p
+{
+  "name": "EaBro Welcome Bot",
+  "description": "Welcome Bot For Group. example? cek git",
+  "keywords": ["eabro-bot", "welcome-bot", "telegram"],
+  "repository": "https://github.com/r0ld3x/morag-music-bot",
+  "stack": "container",
+  "env": {
+    "TOKEN": {
+      "description": "Dapatkan Tokennya Di @botfather ( telegram )",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Ambil API-HASH di from my.telegram.org/apps",
+      "required": true
+    },
+    "API_ID": {
+      "description": "Ambil API-ID di my.telegram.org/apps",
+      "required": true
+    }
+   }
+}
