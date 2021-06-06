@@ -9,13 +9,15 @@
       "description": "Dapatkan Tokennya Di @botfather ( telegram )",
       "required": true
     },
-    "API_HASH": {
-      "description": "Ambil API-HASH di from my.telegram.org/apps",
+    "BOTNAME": {
+      "description": "Nama Bot mu yang telah dibuat di @botfather",
       "required": true
+      "value": "nxokzk"
     },
-    "API_ID": {
-      "description": "Ambil API-ID di my.telegram.org/apps",
+    "PORT": {
+      "description": "biarkan saja ini port",
       "required": true
+      "value": "500"
     }
    }
 }
