@@ -23,7 +23,7 @@ from telegram.ext import Updater, MessageHandler, CommandHandler, Filters
 from telegram.ext.dispatcher import run_async
 
 # from config import BOTNAME, TOKEN
-)
+(
 import Config
 import os
 import psycopg2
