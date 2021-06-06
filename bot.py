@@ -24,15 +24,15 @@ from telegram.ext.dispatcher import run_async
 
 # from config import BOTNAME, TOKEN
 (
-import Config
+import config
 import os
 import psycopg2
 
 bot = Client(
     'bot',
-    TOKEN = Config.TOKEN,
-    API_HASH = Config.API_HASH,
-    API_ID = Config.API_ID
+    TOKEN = config.TOKEN,
+    API_HASH = config.API_HASH,
+    API_ID = config.API_ID
 )
 conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 
