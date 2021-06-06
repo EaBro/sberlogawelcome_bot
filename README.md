@@ -49,6 +49,7 @@ For example:
 🗨 <a href="https://t.me/joinchat/AqeZ2kvXBm5bMY3ULG8MoA">Sberloga Talk Club</a> Чат Data People обо всем кроме Data :) 
 ```
 ![example](example_message.png)
+![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/EaBro/sberlogawelcome_bot)
 
 ## Make your own bot
 1. Clone repo
