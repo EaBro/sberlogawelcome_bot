@@ -23,16 +23,17 @@ from telegram.ext import Updater, MessageHandler, CommandHandler, Filters
 from telegram.ext.dispatcher import run_async
 
 # from config import BOTNAME, TOKEN
-
+)
+import Config
 import os
 import psycopg2
 
-DATABASE_URL = os.environ['DATABASE_URL']
-PORT = int(os.environ.get('PORT', 5000))
-BOTNAME = os.environ.get('BOTNAME', 'sberlogawelcome-bot')
-TOKEN = os.environ.get('TOKEN', 'bottoken')
-
-
+bot = Client(
+    'bot',
+    TOKEN = Config.TOKEN,
+    API_HASH = Config.API_HASH,
+    API_ID = Config.API_ID
+)
 conn = psycopg2.connect(DATABASE_URL, sslmode='require')
 
 
