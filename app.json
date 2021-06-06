@@ -12,11 +12,11 @@
     "BOTNAME": {
       "description": "Nama Bot mu yang telah dibuat di @botfather",
       "required": true
-      "value": "nxokzk"
+      "value":  nxokzk
     },
     "PORT": {
       "description": "biarkan saja ini port",
       "required": true
-      "value": "500"
+      "value": 500
     }
 }
