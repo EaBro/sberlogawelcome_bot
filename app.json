@@ -8,7 +8,6 @@
     "TOKEN": {
       "description": "Dapatkan Tokennya Di @botfather ( telegram )",
       "required": true
-      "description": "asade"
     },
     "BOTNAME": {
       "description": "Nama Bot mu yang telah dibuat di @botfather",
@@ -18,4 +17,5 @@
       "description": "isi dengan PORT:500",
       "required": true
     }
+  }
 }
