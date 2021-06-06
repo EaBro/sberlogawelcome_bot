@@ -1,2 +1,5 @@
-import config:
+class config:
+  TOKEN:
+  BOTNAME:
+  PORT:
               
